@@ -29,12 +29,19 @@ namespace TypesAndVariables
            Console.WriteLine("Number5 is {0}", number5);
            Console.WriteLine("Number6 is {0}", number6);
            Console.WriteLine("Character is: {0}", (int) character);
-
+           Console.WriteLine((int)days.Saturday);
 
 
 
             Console.ReadKey();
 
         }
+
+        enum days
+        {
+            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+        }
+
+
     }
 }
