@@ -10,6 +10,9 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
+            var number = 10;
+
+
         }
     }
 }
