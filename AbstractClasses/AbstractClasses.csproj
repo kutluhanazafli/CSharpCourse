@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2ED31D94-16C6-4006-9665-17F2B7F746D5}</ProjectGuid>
+    <ProjectGuid>{4835B4A1-378A-4211-B43F-41575C16B349}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TypesAndVariables</RootNamespace>
-    <AssemblyName>TypesAndVariables</AssemblyName>
+    <RootNamespace>AbstractClasses</RootNamespace>
+    <AssemblyName>AbstractClasses</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
